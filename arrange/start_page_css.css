@@ -1,0 +1,40 @@
+  body {
+    background-image: url('start_background.png');
+    background-size: cover; /* 배경 이미지 사이즈를 컨테이너에 맞게 조절 */
+    height: 100vh;
+    margin: 0;
+  }
+  p {
+    font-size: 60px;
+  }
+  p2 {
+    font-size: 15px;
+  }
+  .welcome_text{
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    top: 40%; /* 세로위치 */
+    left: 50%; /* 가로위치 */
+    transform: translate(-50%, -50%); /* 가운데 정렬 */
+    line-height:0px
+  }
+  .button_container {
+    position: relative; /* 버튼의 위치를 조정할 부모 요소에 position: relative; 설정 */
+  }
+  .button {
+    background-color: #fcedf4;
+    position: absolute;
+    top: 55%; /* 세로위치 */
+    left: 50%; /* 가로위치 */
+    transform: translate(-50%, -50%); /* 가운데 정렬 */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #a61c55;
+    font-size: 16px;
+    z-index: 1;
+  }
+  .button:hover {
+    background-color: #d1b8c2; /* 마우스를 올렸을 때 색상 변경 */
+  }

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <title>20233553 유은채 웹프로그래밍 HTML 페이지 작성 과제</title>
+    <link rel="stylesheet" href="page_css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+
+<body>
+    <div class="background_h1">
+        <h1>자기소개페이지</h1>
+    </div>
+    
+    <input type="checkbox" id="toggleNavbar" class="toggle-input">
+    <label for="toggleNavbar" class="toggle-label"><img src="바로가기.png" width="40" height="40"></label>
+
+
+    <div class="navbar" id="navbar">
+        <nav>
+            <a href="#hobby">취미</a>
+            <a href="#dream">꿈</a>
+            <a href="#book">좋아하는 책</a>
+            <a href="#mymail">이메일 주소</a>
+            <a href="#timetable">시간표</a>
+        </nav>
+    </div>
+    <br>
+
+    <div><h2>&nbsp 안녕하세요! 저는 유은채입니다.</h2>
+    <ul><p>순천향대학교에서 컴퓨터소프트웨어공학을 전공하고 있는 1학년 학생입니다. 프로그래밍 하는 것을 좋아하고 열심히 공부 중입니다.</p></ul></div>
+    <br><hr><br>
+
+    <div class="hobby-dream">
+        <div class="hobby">
+            <section id="hobby">
+            <h2>취미</h2>
+            <ul><p>제 취미는 영화감상입니다. 제가 좋아하는 영화들을 소개합니다.</p>
+            <details> 
+            <summary>스타워즈 시리즈</summary> 
+            <p>평범한 청년 루크 스카이워커가 우연히 반란군의 메시지를 보게 되고 스승과 동료를 만나 레아 공주를 구하러 가는 내용의 영화로 시작하여 은하제국과의 전쟁이 주가 되는 스페이스 오페라 장르의 시리즈 영화입니다.</p>
+            </details><br>
+            <details> 
+            <summary>The Grand Budapest Hotel</summary> 
+            <p>그랜드 부타페스트 호텔에 다녀간 마담 D.가 살해당하고 호텔의 지배인이자 그녀의 연인인 구스타브가 용의자로 지목받게 되어 구스타브가 로비보이 제로와 함께 누명을 벗기위한 모험을 떠나는 내용<br>앤더슨 감독 특유의 영상미가 돋보이며 해리포터 시리즈의 볼트모트 역으로 유면한 레이프 파인스 주연 영화입니다.</p>
+            </details>
+            </ul>
+            </section>
+        </div>
+        <div class="dream">
+            <section id="dream">
+            <h2>꿈</h2>
+            <ul><p>제 꿈은 게임 개발자입니다. 어렸을 때 했던 게임이 너무 재밌어서 언젠가 나도 이런 게임을 만들고 싶다고 생각해 게임 개발자를 지망하게 되었습니다.<br>언젠가 게임 개발자가 되어 제가 어렸을 적 했던 경험을 다른 사람에게도 경험하게 해주고 싶습니다</p></ul>
+            </section>
+        </div>
+    </div>
+    <br><hr><br>
+    
+    <div>
+    <section id="book">
+        <h2>&nbsp 좋아하는 책</h2>
+        <ul><li><p>A chamada da selva(야성의 부름) - Jack London</p></li></ul>
+        <ul><li><p>Egyptian mythology(이집트 신화) - Veronica ions</p></li></ul>
+        <ul><li><p>The psychology of computer programming(프로그래밍 심리학) - Gerald M. Weinberg</p></li></ul>
+        <ul><li><p>수학자와 함께하는 인공지능 수학 with 파이썬 - 김종락, 원병선</p></li></ul>
+        <br><hr><br>
+    </section>
+    </div>
+
+    <div>
+    <section id="mymail">
+        <h2>&nbsp 이메일 주소</h2>
+        <ul><p>이메일: <a href="mailto:ec04yoo@gmail.com">ec04yoo@gmail.com</a></p></ul>
+        <br><hr><br>
+    </section>
+    </div>
+
+    <div>
+    <section id="timetable">
+        <h2>&nbsp 시간표</h2>
+        <table align="center">
+            <tr>
+                <th>시간/요일</th>
+                <th>월요일</th>
+                <th>화요일</th>
+                <th>수요일</th>
+                <th>목요일</th>
+                <th>금요일</th>
+            </tr>
+            <tr>
+                <th rowspan="2">09:00 - 10:00</th>
+                <td rowspan="6" bgcolor="#ffd6e7" class="td_color_change">웹프로그래밍</td>
+                <td rowspan="3" bgcolor="#ffd6e7" class="td_color_change">컴퓨터개론</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th rowspan="2">10:00 - 11:00</th>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th rowspan="2">11:00 - 12:00</th>
+                <td></td>
+                <td rowspan="6" bgcolor="#ffd6e7" class="td_color_change">파이썬<br>프로그래밍</td>
+                <td rowspan="4" bgcolor="#ffd6e7" class="td_color_change">글쓰기</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th rowspan="2">12:00 - 13:00</th>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th rowspan="2">13:00 - 14:00</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td rowspan="6" bgcolor="#ffd6e7" class="td_color_change">컴퓨터코딩과<br>문제해결</td>
+            </tr>
+            <tr>
+                <th rowspan="2">14:00 - 15:00</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td rowspan="6" bgcolor="#ffd6e7" class="td_color_change">일반수학</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th rowspan="2">15:00 - 16:00</th>
+                <td rowspan="3" bgcolor="#ffd6e7" class="td_color_change">컴퓨터개론</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th rowspan="2">16:00 - 17:00</th>
+                <td></td>
+                <td rowspan="4" bgcolor="#ffd6e7" class="td_color_change">파이썬<br>프로그래밍<br>실습</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th rowspan="2">17:00 - 18:00</th>
+                <td></td>
+                <td rowspan="2" bgcolor="#ffd6e7" class="td_color_change">자기개발과<br>전공탐색</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </section>
+    </div>
+
+    <div>
+    <footer>
+        <p><br>자기 소개 페이지를 읽어주셔서 감사합니다!<br>컴퓨터소프트웨어공학과 20233553 유은채<p>
+    </footer>
+    </div>
+</body>
+
+</head>
